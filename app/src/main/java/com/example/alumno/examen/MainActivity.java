@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     // 7. MQTT
     private static final String BROKER = "tcp://broker.hivemq.com:1883";
-    private static final String TOPIC = "examen/Alumno";
+    private static final String TOPIC = "practica/Useche";
     private MqttClient client;
     private MqttConnectOptions options;
     private boolean isReconnecting = false;
